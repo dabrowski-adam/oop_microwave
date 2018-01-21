@@ -5,7 +5,7 @@ class Program {
 public:
     Program();
     ~Program();
-    virtual void run();
+    virtual void run() = 0;
 };
 
 #endif //PROJECT_PROGRAM_H_H
